@@ -50,7 +50,6 @@ public class Main {
                 price = sc.nextDouble();
                 System.out.print("Maufatura Date:");
                 manufatureDate = formato.parse(sc.next());
-                String a = manufatureDate.toString();
                 produtos.add(new UsedProduct(name, price, manufatureDate));
             } else {
                 System.out.println("não válido");
