@@ -18,8 +18,6 @@ public class Main {
         Double price;
         Double CustomFee = 0.0;
         Date manufatureDate = formato.parse("00/00/0000");
-        //sc.nextLine();
-        //Date a = formato.parse(sc.next());
         System.out.print("Quantos produtos registar ? ");
         int numero = sc.nextInt();
         List<Produto> produtos = new ArrayList<Produto>();
